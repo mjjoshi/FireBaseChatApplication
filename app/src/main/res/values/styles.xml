@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="userAvatarStyle">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:padding">5dp</item>
+        <!--        <item name="android:background">@drawable/bg_user_avatar</item>-->
+    </style>
+
+    <style name="CollapsedAppBarTitleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/text_24</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <!--<item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>-->
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MenuStyle" parent="Theme.AppCompat.Light"> 
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="primaryButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/bg_button_primary</item>
+    </style>
+
+</resources>

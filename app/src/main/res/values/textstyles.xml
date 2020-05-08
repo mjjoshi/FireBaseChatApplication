@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Text.heading1" parent="Text">
+        <item name="android:textSize">@dimen/text_20</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="Text.heading2" parent="Text">
+        <item name="android:textSize">@dimen/text_18</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="Text.heading3" parent="Text">
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="Text.heading4" parent="Text">
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="Text.heading5" parent="Text">
+        <item name="android:textSize">@dimen/text_12</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="Text.heading6" parent="Text">
+        <item name="android:textSize">@dimen/text_10</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <!--  Hint style -->
+    <style name="Text.heading5.RegularHint" parent="Text.heading5">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+
+    <style name="Text.heading3.White" parent="Text.heading3.Medium">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+
+    <!-- Regular -->
+
+    <style name="Text.heading1.Regular" parent="Text.heading1">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading2.Regular" parent="Text.heading2">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading3.Regular" parent="Text.heading3">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading4.Regular" parent="Text.heading4">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading5.Regular" parent="Text.heading5">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading5.Italic" parent="Text.heading5">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading5.Light" parent="Text.heading5">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading6.Regular" parent="Text.heading6">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_0dp</item>
+    </style>
+
+    <!-- Bold-->
+
+    <style name="Text.heading1.Bold" parent="Text.heading1">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading2.Bold" parent="Text.heading2">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading3.Bold" parent="Text.heading3">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading4.Bold" parent="Text.heading4">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading5.Bold" parent="Text.heading5">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading6.Bold" parent="Text.heading6">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_0dp</item>
+    </style>
+
+    <!-- Semi Bold-->
+
+    <style name="Text.heading1.SemiBold" parent="Text.heading1">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading2.SemiBold" parent="Text.heading2">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading3.SemiBold" parent="Text.heading3">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading4.SemiBold" parent="Text.heading4">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading5.SemiBold" parent="Text.heading5">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading6.SemiBold" parent="Text.heading6">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_0dp</item>
+    </style>
+
+
+    <!-- Medium-->
+
+    <style name="Text.heading1.Medium" parent="Text.heading1">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading2.Medium" parent="Text.heading2">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading3.Medium" parent="Text.heading3">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading4.Medium" parent="Text.heading4">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading5.Medium" parent="Text.heading5">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="Text.heading6.Medium" parent="Text.heading6">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_0dp</item>
+    </style>
+
+    <style name="Text.large" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.semilarge" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.medium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="Text.normal" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.small" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <style name="Text.large.primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Text.medium.primaryDark">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Text.large.accent">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+
+</resources>

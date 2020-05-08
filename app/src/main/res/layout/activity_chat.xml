@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ChatActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_60dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgUserAvatar"
+                android:layout_width="@dimen/dimen_30dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:src="@drawable/icn_upload_user" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_24dp"
+                android:text="@string/txthint"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_18">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvChatList"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:layout_below="@+id/Appbar"
+        android:layout_above="@+id/rlBottom"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/progressBarChat"
+        android:layout_width="400dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_height="60dp">
+
+    </ProgressBar>
+
+
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:background="#fff"
+        android:padding="@dimen/dimen_5dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtTypeMessage"
+            android:layout_width="match_parent"
+            android:hint="@string/type_a_message"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:layout_toStartOf="@+id/imgsend"
+            android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.AppCompatEditText>
+
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/imgsend"
+            android:layout_width="@dimen/dimen_40dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:background="@drawable/ic_send_black_24dp"
+            android:layout_alignParentEnd="true">
+
+        </androidx.appcompat.widget.AppCompatImageButton>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

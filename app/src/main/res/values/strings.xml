@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PraticalAJNWebtech</string>
+    <string name="chat_application">Chat Application</string>
+    <string name="lbl_first_name">First Name</string>
+    <string name="lbl_last_name">Last Name</string>
+    <string name="hint_email_address">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_address">Address</string>
+    <string name="lbl_sign_up">Sign Up</string>
+    <string name="lbl_login">Log In</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="hint_email">Email</string>
+
+
+    <string name="empty_first_name">Enter First Name!</string>
+    <string name="msg_valid_name">Numeric values are not acceptable!</string>
+    <string name="msg_valid_first_name">Enter valid First Name!</string>
+    <string name="empty_last_name">Enter Last name!</string>
+    <string name="msg_valid_last_name">Enter valid Last name!</string>
+    <string name="empty_email">Enter Email Address!</string>
+    <string name="msg_valid_email">Enter valid email!</string>
+
+    <string name="empty_password">Enter Password!</string>
+
+    <string name="empty_address">Enter Address</string>
+    <string name="camera_dilog">Camera</string>
+    <string name="gallery_dilog">Gallery</string>
+    <string name="cancle_dilog">CANCEL</string>
+    <string name="set_avtar_dilog">Set Avatar</string>
+    <string name="msg_valid_password">Password must be at least 8 characters long!</string>
+    <string name="createnewuser">CreateNewUser</string>
+    <string name="type_a_message">Type a Message..</string>
+    <string name="txthint">UserName</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "331032575491",
+    "firebase_url": "https://chatapplication-a811f.firebaseio.com",
+    "project_id": "chatapplication-a811f",
+    "storage_bucket": "chatapplication-a811f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331032575491:android:dfb681ef7191f92f4dd836",
+        "android_client_info": {
+          "package_name": "com.praticalajnwebtech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331032575491-pdhfcd8vgqko3teo5vno979od6hor6el.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.praticalajnwebtech",
+            "certificate_hash": "9a36e18326b6f0d9d890cb436c8e7ec2f7a7b259"
+          }
+        },
+        {
+          "client_id": "331032575491-b1i55m9km1mplph51khl3j8i9n4oobvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHkZJbFz-cu-8G37LnBxO2KzF2z-slUIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331032575491-b1i55m9km1mplph51khl3j8i9n4oobvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
